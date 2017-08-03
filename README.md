@@ -1,2 +1,2 @@
-# openvpn-monitor
-bash script to monitor OpenVPN connections and upon disconnect randomly choose a new one from a predefined array
+# Summary
+This bash script monitors configured OpenVPN connections and if/when a VPN connection disconnects it automatically reconnects choosing randomly from a list of predefined OpenVPN connections array.
