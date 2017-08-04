@@ -28,6 +28,9 @@ UUIDMAP[1]="ffffffff-gggg-hhhh-iiii-jjjjjjjjjjjj"
 /path/to/the/script.sh start - start the VPN monitoring script
 /path/to/the/script.sh stop - stop the VPN monitoring script
 
+#Improvements
+1. Rather than editing the script with UUIDs the script should automatically list UUIDs and append to the array
+2. ...
 # Run bash script automatically at logon
 This depends slighly on the flavor of distro used, for Xubuntu configure the script under "Session and Startup/Application Autostart" tab:
 
