@@ -21,6 +21,7 @@ Step3: add all the network UUIDs in the script like this:
 
 ...
 UUIDMAP[0]="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"
+
 UUIDMAP[1]="ffffffff-gggg-hhhh-iiii-jjjjjjjjjjjj"
 
 ...
