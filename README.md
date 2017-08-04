@@ -36,7 +36,7 @@ UUIDMAP[1]="ffffffff-gggg-hhhh-iiii-jjjjjjjjjjjj"
 
 # Improvements
 1. Rather than editing the script with UUIDs the script should automatically list UUIDs and append to the array
-2. ...
+2. Any other improvements and suggestions are welcome :)
 
 # Run bash script automatically at logon
 This depends slighly on the flavor of distro used, for Xubuntu configure the script under "Session and Startup/Application Autostart" tab:
