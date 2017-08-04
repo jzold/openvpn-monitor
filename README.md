@@ -9,7 +9,7 @@ The script has following dependencies:
   - nmcli (network-manager package)
   - notify-send (libnotify-bin package)
   - ping
-  - grep and egrep
+  - grep, pgrep and egrep
 
 # Prerequisites
 The VPN connections have to be created and configured with Network Manager, I recommend saving all the credentials required for authentication in the config to make sure the script can auto-reconnect to any VPN connections without any user intervention.
