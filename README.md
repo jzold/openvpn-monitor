@@ -18,7 +18,7 @@ Step1: Configure all VPN connections in Network Manager
 
 Step2: Get a list of all the network UUIDs:
 
-  nmcli con show
+     nmcli con show|grep vpn
   
 Step3: add all the network UUIDs in the script like this:
 
