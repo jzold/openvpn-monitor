@@ -15,8 +15,11 @@ The script has following dependencies:
 The VPN connections have to be created and configured with Network Manager, I recommend saving all the credentials required for authentication in the config to make sure the script can auto-reconnect to any VPN connections without any user intervention.
 
 Step1: Configure all VPN connections in Network Manager
+
 Step2: Get a list of all the network UUIDs:
+
   nmcli con show
+  
 Step3: add all the network UUIDs in the script like this:
 
 ...
@@ -26,15 +29,18 @@ UUIDMAP[0]="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"
 UUIDMAP[1]="ffffffff-gggg-hhhh-iiii-jjjjjjjjjjjj"
 
 ...
-#Usage
+
+# Usage
 /path/to/the/script.sh start - start the VPN monitoring script
 /path/to/the/script.sh stop - stop the VPN monitoring script
 
-#Improvements
+# Improvements
 1. Rather than editing the script with UUIDs the script should automatically list UUIDs and append to the array
 2. ...
+
 # Run bash script automatically at logon
 This depends slighly on the flavor of distro used, for Xubuntu configure the script under "Session and Startup/Application Autostart" tab:
 
 Name: VPN Monitoring script
+
 Command: /path/to/the/script.sh start
